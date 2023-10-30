@@ -1,0 +1,57 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
+.glide/
+
+# The directory Vendor is used by go modules
+/vendor/
+
+# Coverage directory used by tools like go cover
+/coverage/
+
+# "bin" directory if you use go install
+/bin/
+
+# Dependency directories (remove the comment below to include it)
+# /vendor/
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Profile output
+profile.out
+
+# IDE files (uncomment to include)
+# .idea/
+# *.iml
+# VSCode
+.vscode/
+# GoLand
+.idea/
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Misc files
+*.swp
+*.swo
+*.tmp
+*.log
+*.gz
+*.zip
+*.tar
+*.tar.gz
+*.rar
